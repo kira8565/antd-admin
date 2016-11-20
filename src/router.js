@@ -5,6 +5,8 @@ import Error from './routes/error'
 import Dashboard from './routes/dashboard'
 import Users from './routes/users'
 
+import Systemsetting from "./routes/Systemsetting.js";
+
 export default function ({ history }) {
   return (
     <Router history={ history }>
